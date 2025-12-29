@@ -1,0 +1,42 @@
+{
+  "session_id": "20251229_120553",
+  "start_time": "2025-12-29T12:05:53.149158",
+  "end_time": "2025-12-29T12:07:08.262595",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! I'm your AI voice assistant. I'm here to help you with any questions or conversations you'd like to have. How can I assist you today?",
+      "type": "welcome"
+    },
+    {
+      "role": "user",
+      "content": "Hello. How are you?",
+      "type": null
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! I'm doing well, thanks for asking. How about you?",
+      "type": null
+    },
+    {
+      "role": "user",
+      "content": "What knowledge do you have?",
+      "type": null
+    },
+    {
+      "role": "assistant",
+      "content": "I have a lot of general knowledge on various topics like history, science, tech, and more, all the way up to October twenty-twenty-three. What are you curious about?",
+      "type": null
+    },
+    {
+      "role": "user",
+      "content": "Nowhere.",
+      "type": null
+    },
+    {
+      "role": "assistant",
+      "content": "That\u2019s totally fine! If you think of anything later, just let me know.",
+      "type": null
+    }
+  ]
+}
