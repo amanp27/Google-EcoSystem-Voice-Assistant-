@@ -164,7 +164,7 @@ Edit `config.py` to customize:
 [ Transcribed text sent to Gemini LLM ]
               |
               v
-[ Gemini generates response text ]
+[ OpenAI generates response text ]
               |
               v
 [ Response text sent to OpenAI TTS ]

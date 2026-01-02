@@ -1,4 +1,12 @@
+"""Orchestrates the FastAPI application for the voice assistant service using WebSockets."""
+
+
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException
+#FastAPI → server
+#WebSocket → real-time channel
+#WebSocketDisconnect → clean disconnect handling
+#HTTPException → REST error handling
+
 from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
@@ -13,6 +21,7 @@ import config
 app = FastAPI(title="Voice Assistant API")
 
 # Initialize services
+# Server Creation
 stt = backend.SpeechToText()
 llm = backend.LLMProcessor()
 tts = backend.TextToSpeech()

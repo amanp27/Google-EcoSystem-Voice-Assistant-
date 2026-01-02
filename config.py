@@ -8,13 +8,13 @@ ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Audio Settings
-SAMPLE_RATE = 16000
+SAMPLE_RATE = 16000  #16kHz
 CHUNK_SIZE = 1024
 CHANNELS = 1
 
 # AssemblyAI STT Settings
 STT_LANGUAGE = "en"
-STT_MODEL = "best"  # or "nano" for faster processing
+STT_MODEL = "nano"  # "nano" for faster processing or "best" for higher accuracy
 
 # OpenAI Settings
 LLM_MODEL = "gpt-4o-mini"

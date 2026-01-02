@@ -1,0 +1,12 @@
+{
+  "session_id": "20251231_145525",
+  "start_time": "2025-12-31T14:55:25.302012",
+  "end_time": "2025-12-31T14:55:34.081389",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! I'm your AI voice assistant. I'm here to help you with any questions or conversations you'd like to have. How can I assist you today?",
+      "type": "welcome"
+    }
+  ]
+}

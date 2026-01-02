@@ -19,6 +19,7 @@ class SpeechToText:
         try:
             import time
             
+            # Creating the temporary WAV file to store audio data for transcription
             timestamp = str(int(time.time() * 1000))
             temp_wav = f"temp_audio_{timestamp}.wav"
             
@@ -28,7 +29,7 @@ class SpeechToText:
             
             # Check file size
             file_size = Path(temp_wav).stat().st_size
-            if file_size < 1000:
+            if file_size < 1000: #if file is smaller than 1KB, likely invalid
                 print(f"Audio file too small: {file_size} bytes")
                 Path(temp_wav).unlink(missing_ok=True)
                 return ""
